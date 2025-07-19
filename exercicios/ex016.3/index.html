@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sombras</title>
+</head>
+ <style>
+    body{
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: antiquewhite;
+        margin: 0px;
+        
+    }
+    #box {
+       background-color: rgb(255, 255, 255);
+       width: 400px;
+       padding: 1px 10px;
+       margin: auto;
+       box-shadow: 2px 3px 3px black;
+       border-radius:30px 10px 10px 10px;
+    }
+    #box > h1{
+        text-align: center;
+    }
+    #linkBox {
+        background-color: rgb(0, 255, 64);
+        width: 30px;
+        border-radius: 3px;
+        margin: 10px;
+        padding: 10px;
+        box-shadow: 4px 3px 3px rgb(116, 118, 121);
+    }
+    .linkn {
+        text-decoration: none;
+        color: black;
+    }
+    header{
+        height: 60px;
+        background-color: white;
+        border-radius: 10px;
+        padding-left: 10px;
+        padding-bottom: 50px;
+        text-align: center;
+        margin: auto auto 50px auto;
+    }
+    footer > p{
+        color: white;
+    }
+    footer {
+        background-color: rgb(61, 60, 60);
+        padding-bottom: 1px;
+        margin: 0px;
+        text-align: center;
+        height: 500px;
+   
+    }
+    main {
+        margin-bottom: 400px;
+    }
+    #box1 {
+        background-color: rgb(224, 221, 217);
+        margin: 10px;
+        padding: 2px;
+        text-align: justify;
+        border-radius: 10px;
+        border: 7px solid rgb(65, 56, 56);
+    }
+    .titulo {
+        background-color: rgb(184, 152, 115);
+        width: 100px;
+        border-radius: 4px;
+        padding: 2px;
+        margin: 4px;
+    }
+    .titulo {
+        box-shadow: 3px 3px 3px rgb(95, 89, 79);
+    }
+    #super {
+        display: inline;  
+    }
+    .link{ 
+        color: black;
+        text-decoration: none;
+        margin-left: 40px;
+        margin-right: 40px;
+        padding: 10px;
+        background-color: burlywood;
+        border-radius: 50%;
+        border: 2px solid black;
+    }  
+    .link:hover{
+        color: white;
+        background-color:rgb(148, 125, 95);
+    }
+ </style>
+<body>
+    <header>
+        <h1>TITULUZINNNN</h1>
+        <nav id="linkheard">
+               <div id="super"><a href="#" class="link">link</a></div>
+               <div id="super"><a href="#" class="link">link</a></div>
+               <div id="super"><a href="#" class="link">link</a></div>
+               <div id="super"><a href="#" class="link">link</a></div>
+        </nav>
+    </header>
+    <main>
+    <article id="box1">
+        <h2 class="titulo">TEXTO 1</h2>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vel nostrum, porro rem unde earum delectus deleniti omnis eveniet libero! Ipsam excepturi pariatur eos corrupti minima vero molestiae cum eligendi in.</p>
+        <h2 class="titulo">TEXTO 2</h2>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Provident ex in odit architecto sapiente ratione neque iste reprehenderit illum, error qui ipsam laboriosam, eos omnis possimus adipisci molestiae distinctio officiis?</p>
+    </article>
+    <article id="box">
+        <h1>Exemplo de sombras</h1>
+        <p>Iremos aprender a fazer sombras agora mesmo!!!!</p>
+        <nav id="linkBox">
+            <a href="https://github.com/" class="linkn">aqui</a>
+        </nav>
+    </article>
+    </main>
+    <footer>
+    <p>feito por mim</p>
+    </footer>
+</body>
+</html>

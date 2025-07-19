@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>links parte 2</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 2em;
+        }
+        h1:hover::after{
+            content:'<<';
+        }
+        h1:hover::before{
+            content: '>>';
+        }
+        a{
+            color: black;
+            text-decoration: none;
+            font-weight: 700;
+            
+        }
+        a:hover {
+            color: white;
+            background-color: black;
+        }
+        a:visited{
+            color: rgb(109, 21, 209);
+        }
+
+        a:active{
+            color: red;
+        }
+        .tdah::before {
+            content: '>>';
+
+        }
+        .tdah::after {
+            content: '<<';
+        }
+    </style>
+</head>
+<body>
+    <h1>Links</h1>
+    <ul >
+        <li><a href="https://www.primevideo.com">Prime video </a>
+        <li><a href="https://www.aliexpress.com">Aliexpress </a>
+        <li class='tdah'><a href="https://x.com">X </a>
+    </ul>
+</body>
+</html>

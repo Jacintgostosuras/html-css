@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo-classes e Pseudo-elementos</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        a{ 
+            text-decoration: none;
+            color: rgb(255, 0, 0);
+            font-weight: 700;
+        }
+        a:visited {
+            color: brown;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        .especial:hover {
+            color: white;
+            background-color: rgb(255, 0, 0);
+            text-decoration: none;
+        }
+        .especial::before{
+            content: '>>';
+            font-weight: lighter;    
+        }
+        .especial::after{
+            content: '<<';
+            font-weight: lighter;
+        }
+    </style>
+</head>
+<body>
+    <h1>Personalizando links</h1>
+    <h2>Sites aleatorios</h2>
+     <p>Quer ver um circulo? <a href="https://color.adobe.com/pt/create/color-wheel" rel="external" target="_blank">clique aqui.</a></p>
+     <p>Curso que estou fezendo <a href="https://www.cursoemvideo.com/" rel="external" target="_blank">clique aqui.</a></p>
+     <p>Entrar no youtube? <a href="https://www.youtube.com/" rel="external" target="_blank">clique aqui.</a></p>
+     <p><a class="especial" href="https://www.primevideo.com.br/">site aleatorio</a></p>
+</body>
+</html>

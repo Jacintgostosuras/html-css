@@ -1,0 +1,42 @@
+ @import url('https://fonts.googleapis.com/css2?family=Barrio&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barrio&family=Moirai+One&display=swap');
+
+       body{
+        font-family: Arial, Helvetica, sans-serif;
+       }
+        h1{
+        font-family: "Moirai One", system-ui;
+        font-weight: 900;
+        font-style: normal;
+        text-align: center;
+        font-size: 3em;
+        background-color: #fad7fa;
+        width: 400px;
+        border-radius: 10px;
+        margin: auto;
+        }
+        main{
+           width: auto;
+           border-radius: 10px;
+           padding: 2px;
+          
+        }
+        h2{ 
+            background-color: #fad7fa;
+            font-size: 2em;
+            width: 230px;
+            padding: 10px;
+            border-radius: 10px;
+            box-shadow: 5px 2px 5px #776077;
+            height: auto;
+        }
+        p{
+            font: normal bold 1em Arial, Helvetica, sans-serif;
+            text-align: justify;
+            
+        }
+        h2 {
+            font-family: "Barrio", system-ui;
+            font-weight: 600;
+            font-style: normal;
+           }

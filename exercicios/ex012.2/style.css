@@ -1,0 +1,16 @@
+
+h1{
+    color: rgb(255, 0, 234);
+    background-color: cornflowerblue;
+}
+p{
+    background-color: rgb(218, 154, 108)
+}
+h2{
+   color: rgb(20, 220, 47);
+ }
+body { 
+    color: rgb(44, 68, 175);
+    background-color: antiquewhite;
+    font-family: Arial, Helvetica, sans-serif;
+}
