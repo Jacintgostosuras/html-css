@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagens de Fundo</title>
+    <style>
+        .quadrado {
+            display: inline-block;
+            width: 300px;
+            height: 300px;
+            border-radius: 10px;
+            background-color: rgb(71, 78, 78);
+            border: 3px solid black;
+        }
+        #q1  {
+            background-color: aquamarine;
+        }
+        #q2 {
+            background-image: linear-gradient(to top, blue, yellow);
+        }
+        #q3 {
+            background-image: url(imagens/download.jpg);
+            background-size: 100%;
+        }
+        body {
+            background-image: url(imagens/download.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed;
+        }
+        #fora {
+            height: 96vh;
+            background-color: blueviolet;
+        }
+        #dentro {
+            height: 200px;
+            width: 300px;
+            background-color: yellow;
+            position: absolute;
+            left: 800px;
+            bottom: 300px;
+            top: 10px;
+            
+        } 
+    </style>
+</head>
+<body>
+    <div class="quadrado" id="q1"></div>
+    <div class="quadrado" id="q2"></div>
+    <div class="quadrado" id="q3"></div>
+    <div id="fora">
+        <div id="dentro"></div>
+    </div>
+    
+</body>
+</html>
