@@ -1,0 +1,34 @@
+@charset "UTF-8";
+
+/*- Empressora -*/
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+html {
+    font-size: 1em;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+menu {
+    margin: 2px;
+    padding: 5px
+}
+
+menu  > ul{
+    display: none;
+
+}
+main h2 {
+    margin-bottom: 20px
+}
+
+main >article>p {
+    margin: 10px 10px 30px 5px;
+    line-height: 30px;
+}
+article::after {
+    content: "Acesse o Site https://www.Seila.com para mais iformacoes";
+
+}

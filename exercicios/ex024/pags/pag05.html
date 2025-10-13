@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>teste iframe com javascp</title>
+</head>
+<style>
+    body {
+        background-color: rgb(236, 211, 128);
+    }
+    #saida {
+        background-color: white;
+        border-radius: 5px;
+        
+    }
+</style>
+<body>
+    <a href="#" onclick="jacinto()">clique em mim</a>
+    <div id="saida"></div>
+    
+    <script>
+        function jacinto() {
+            peido = window.document.getElementById("saida")
+            peido.innerHTML += "<p>Voce clicou</p>"
+        } 
+    </script>
+</body>
+</html>

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste formulario</title>
+</head>
+<body>
+    <H2>Teste</H2>
+    <form action="CDT.php" method="post" autocomplete="off">
+        <p>
+            <label for="icor">Cor: </label>
+            <input type="color" name="cor" id="icor" value="#d804e7">
+        </p>
+        <p>
+            <label for="iNI">Nivel: </label>
+            <input type="range" name="NI" id="iNI" value="3" min="0" max="6">
+        </p>
+        <p>
+            <label for="Iarqui">Documento ou foto: </label>
+            <input type="file" name="arqui" id="Iarqui">
+        </p>
+        <p>
+            <input type="submit" value="enviar">
+            <input type="reset" value="limpar">
+        </p>
+    </form>
+</body>
+</html>

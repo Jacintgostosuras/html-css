@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <style>
+        *{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        fieldset {
+            width: 200px;
+            border-radius: 30px;
+            border: 2px solid black;
+        }
+        #EN{
+            border-radius:10px; 
+            padding: 5px;
+            font-size: medium;
+            height: auto;
+            width: auto;
+            border: 0px;
+            background-color: rgb(4, 192, 114)
+        }
+        #EN:hover{
+            color: white;
+            transition: 0.50s;
+            background-color: rgb(13, 114, 72);
+        }
+    </style>
+</head>
+<body>
+    <h2>Formulario Teste</h2>
+
+    <form action="CDT.php" method="get" autocomplete="on">
+       <fieldset>
+           <legend>Sexo</legend>
+
+            <input type="radio" name="sexo" id="Smas" required><label for="Smas"> Masculino</label><br>
+
+           <input type="radio" name="sexo" id="Sfem" required><label for="Sfem"> Feminino</label><br>
+           
+       </fieldset>
+       <fieldset>
+          <legend>Esporte que pratica</legend>
+
+          <input type="checkbox" name="FUT" id="IFUT" checked > 
+          <label for="IFUT">Futeball</label><br>
+
+          <input type="checkbox" name="BAS" id="IBAS" ><label for="IBAS"> Basquete</label><br>
+
+          <input type="checkbox" name="VOL" id="IVOL" ><label for="IOVL"> Volei</label>
+       </fieldset>
+       <P>
+          <input type="submit" value="enviar" id="EN">
+          <input type="reset" value="limpar" id="EN">
+       </P>
+
+
+
+    </form>
+    
+</body>
+</html>

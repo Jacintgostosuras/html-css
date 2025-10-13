@@ -14,13 +14,11 @@
     margin: 0px;
     
 }
-
 body{
     height: 100vh;
     background-color: rgb(134, 134, 134);
     font-family: var(--font1);
 }
-
 header {
     color: white;
     background-color: black;

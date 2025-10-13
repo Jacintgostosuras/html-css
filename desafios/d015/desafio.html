@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tabela maçã</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        table { 
+           border-collapse: collapse;
+           margin: auto;
+        }
+        th, td {
+            border: 1px solid black;
+            width: 100px;
+            height: 30px;
+        }
+        td {
+            text-align: center;
+        }
+        .mater {
+            text-align: left;
+        }
+        thead {
+            background-color: gray;
+            color: white;
+        }
+        .media {
+            color: white;
+            background-color: gray;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <thead>
+          <tr>
+            <th rowspan="2en" scope="col">Área</th>
+            <th rowspan="2en" scope="col">Disciplinas</th>
+            <th colspan="2en" scope="colgroup">Notas</th>
+            <th rowspan="2en" scope="col">Media</th>
+          </tr>
+
+          <tr>
+            <th>Nota 1</th>
+            <th>Nota 2</th>
+          </tr>
+
+        </thead>
+        <tbody>
+
+            <tr>
+            <th rowspan="5en" scope="rowgroup">Exatas</th>
+            </tr>
+
+            <tr>
+            <td class="mater">Matemática</td>
+            <td>0.2</td>
+            <td>3.4</td>
+            <td>6.4</td>
+            </tr>
+
+            <tr>
+            <td class="mater">Física</td>
+            <td>9.7</td>
+            <td>5.3</td>
+            <td>4.6</td>
+            </tr>
+
+            <tr>
+            <td class="mater">Química</td>
+            <td>3.5</td>
+            <td>2.45</td>
+            <td>9.8</td>
+            </tr>
+
+            <tr>
+            <td class="mater">Biologia</td>
+            <td>7.6</td>
+            <td>5.8</td>
+            <td>8.6</td>
+            </tr>
+            
+            <tr class="media">
+            <th colspan="4en" scope="rowgroup">Media de Exatas</th>
+            <td>1bilao</td>
+            </tr>
+            
+            <tr> 
+            <th rowspan="2en">Humanas</th>
+            <td class="mater">História</td>
+            <td>2.5</td>
+            <td>9.3</td>
+            <td>6.5</td>
+            </tr>
+            
+            <tr>
+            <td class="mater">Geografia</td>
+            <td>8.5</td>
+            <td>4.54</td>
+            <td>3.5</td>
+            </tr>
+
+            <tr class="media" scope="rowgroup">
+            <th colspan="4en">Media Humanas</th>
+            <td>1zilhao</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
