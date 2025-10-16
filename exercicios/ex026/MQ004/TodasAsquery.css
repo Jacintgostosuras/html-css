@@ -1,0 +1,73 @@
+@charset "UTF-8";
+
+
+/* outras medias */
+
+/* Device breakpoints
+tab: 1280 x 800
+motni:1920 x 1080
+TV:1920 pra cima
+
+*/
+@media screen and (min-width: 800px ) and (max-width: 1280px){
+    html {
+        background: url(imagens3/back-tablet.jpg);
+        background-size: cover;
+        background-position: center center;
+    }
+    h2::after {
+        content: "tablet";
+    }
+    #celular {display: none;}
+    #tablete{display: block;}
+}
+
+@media screen and (min-width: 1280px) and (max-width:1700px) {
+    html {
+        background: url(imagens3/back-pc.jpg); 
+        background-position: center center;
+    }
+    h2::after {
+        content: "PC";
+    } 
+    #celular {
+        display: none;
+    }
+    #PC {display: block;}
+}
+
+@media screen  and (min-width: 1700px){
+    html {
+        background: url(imagens3/back-tv.jpg); 
+        background-position: center center;
+    }
+    main {
+        width: 600px;
+    }
+    h2::after {
+        content: "Tv ou monitor maior";
+    }
+    #celular {display: none;}
+    #TV {display: block;}
+}
+
+@media print {
+    /* Uma impressora nao tem background */ 
+    html{
+        font-family: 'Courier New', Courier, monospace
+    }
+    main {
+        border: 2px solid black;
+    }
+    h2::after {
+        content: "Impressora";
+    }
+    #celular {
+        display: none;
+    }
+    #impressora {
+        display: block;
+    }
+}
+
+
