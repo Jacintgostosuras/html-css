@@ -1,0 +1,88 @@
+@charset "UTF-8";
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+html, body {
+    background-color: rgb(243, 235, 226);
+}
+
+header {
+    background-color: gray; 
+}
+header > #Menuzao {
+    display: block;
+    text-align: center;
+    background-color:  rgb(39, 39, 39);
+    color: white;
+}
+header > #Menuzao:hover {
+    background-color: white;
+    color: black;
+    transition: 0.7s;
+    cursor: pointer;
+
+}
+header > h1 {
+    text-align: CENTER;
+    padding: 20px;
+    margin-bottom: 20px;
+    color: white;
+    font-size: 3em;
+    text-shadow: 1px 2px 3px rgba(0, 0, 0, 0.5);
+}
+
+menu {
+    display: block;
+    background-color: rgb(56, 56, 56);
+    text-align: center;
+    display: none;
+}
+
+menu > ul{
+    list-style-type: none; 
+}
+
+a {
+    padding: 10px;
+    display: block;
+    text-decoration: none;
+    color: white;
+    border: 1px solid  rgb(90, 90, 89);
+}
+
+main {
+    padding: 20px;
+    margin: auto ;
+    margin-bottom: 100px;
+    background-color: aliceblue;
+    max-width: 600px;
+    border-radius: 0px 0px 10px 10px;
+    box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.425);
+}
+
+main > h1 {
+    margin-bottom: 20px;
+    text-indent: 20px;
+   
+}
+
+main > article >  p {
+    text-indent: 10px;
+    margin: 10px auto 10px auto;
+}
+
+menu > ul > li > a:hover {
+    background-color: gray;
+    transition: 0.7s;
+}
+
+footer {
+    font-size: 0.8em;
+    text-align: center;
+    color: white;
+    padding: 25px;
+    background-color: rgba(56, 55, 55, 0.712);
+}
