@@ -1,0 +1,22 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 760px)  {
+    header >  #M{
+        display:none;
+    }
+    menu {
+        display: block;
+        width: 431px; 
+        background-color: gray;
+    }
+    menu > ul > li {
+        display: inline-block;
+    }
+    a {
+        background-color: rgb(39, 39, 39);
+        border-radius:10px 10px 0px 0px;
+    }
+    main {
+        margin-bottom: 200px;
+    }
+}
