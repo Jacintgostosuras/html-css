@@ -1,0 +1,53 @@
+@charset "UTF-8";
+
+/* CONFIGS PARA TABLET*/
+
+body {
+   background:  linear-gradient(360deg, #71e7eb, #20B3FA);
+}
+
+main {
+    min-width: 760px;
+    height: 300px;
+    
+}
+#Formulario {
+    position: absolute;
+    top: 80px; 
+    margin-left: 5px;
+}
+#isenha, #iemail {
+    width: 473px;
+}
+#icon {
+    margin-right:17px ;
+}
+#botaoEN, #botaoEQ{
+   width: 545px;
+}
+#caixaent {
+    margin: 2px;
+    width: 540px;
+}
+#posin {
+    position: absolute;
+    top: 10px;
+    margin-left: 8px ;
+}
+#posin1 {
+    position: absolute;
+    top: 45px;
+    width: 500px;
+    text-align: left;
+    margin-left: 5px;
+}
+p {
+    margin: 2px;
+}
+#Imagen {
+    position: absolute;
+    border-radius: 0px 10px 10px 0px;
+    right: 0px;
+    width: 200px;
+    height: 300px;
+}

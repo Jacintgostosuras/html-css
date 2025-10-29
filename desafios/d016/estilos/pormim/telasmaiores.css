@@ -1,0 +1,20 @@
+@charset "UTF-8";
+
+#Imagen {
+    position: absolute;
+    left: 0px;
+    border-radius: 10px 10px 10px 10px ;
+}
+#Formulario {
+    right: 25px;
+}
+#posin {
+    right: 350px;
+}
+#posin1 {
+    right: 80px;
+}
+
+main {
+    max-width: 800px;
+}
