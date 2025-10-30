@@ -9,6 +9,7 @@
 
 html, body {
     background-image: linear-gradient(to top, #71e7eb, #20B3FA );  
+    background-attachment: fixed;
     width: 100vw;
     height: 100vh;
 }
