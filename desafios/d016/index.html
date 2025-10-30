@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="estilos/mobale.css">
     <link rel="stylesheet" href="estilos/geral.css">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet"/>
     <title>Login</title>
 </head>
 <body>
@@ -14,17 +15,21 @@
         <div id="formulario">
         <h1>Area de Login</h1>
         <p>Seja bem-vindo(a) novamente. Faça o login para poder acessar sua contae poder fazer as configurações no seu ambiente</p>
-            <form  action="action.php" method="post">
-                <p>
-                    <label for="iemail"></label>
-                    <input type="email" name="email" id="isenha">
-                </p>
-                <p>
-                    <label for="isenha"></label>
-                    <input type="password" name="senha" id="isenha">
-                </p>
-                <p><input type="submit" value="Entrar"></p>
-                <p><input type="reset" value="Esqueceu sua senha?"></p>
+            <form  action="action.php" method="post" autocomplete="on">
+
+                <div class="campo">
+                    <span class="material-symbols-outlined">account_circle</span>
+                    <input type="email" name="email" id="iemail" placeholder="nome@gmail.com" required >
+                    <label for="iemail">E-mail</label>
+                </div>
+                <div class="campo">
+                    <span class="material-symbols-outlined">lock</span>
+                    <input type="password" name="senha" id="isenha" minlength="8" maxlength="8" required placeholder="Sua senha">
+                    <label for="isenha">Senha</label>
+                </div>
+                
+                <input type="submit" value="Entrar">
+                <a href="enviou.html" class="botao">Esqueceu a senha?<span class="material-symbols-outlined">stacked_email</span></a> 
             </form>
         </div>
         </section>

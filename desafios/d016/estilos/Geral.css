@@ -2,7 +2,8 @@
 
 @media screen and (min-width:762px ) and (max-width: 1020px) {
     #login {
-        width: 80vw;
+        width: 87vw;
+        height: 300px;
     }
     #login > #Imagem {
         float: left;
@@ -19,15 +20,20 @@
 }
 
 @media screen and (min-width: 1020px) and (max-width:1980px){
+    #login > #formulario > h1 {
+        font-size: 2em;
+        transition: 0.5s;
+    }
     #login {
         width: 990px;
+        height: 300px;
     }
     #login > #formulario {
-        float: right;
+        float: left;
         width: 50%;
     }
     #login > #Imagem {
-        float: left;
+        float: right;
         width: 50%;
         height: 100%;
     }
