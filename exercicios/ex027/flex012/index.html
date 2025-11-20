@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex testes</title>
+    <style>
+        *{
+            padding: 0px;
+            margin: 0px;
+        }
+        #father {
+            background-color: orange;
+            display: flex;
+            height: 200px;
+        }
+        #son{
+            border: 1px solid black;
+            text-align: center; 
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+        }
+        .A1 {
+            background-color: rgb(33, 180, 148);
+            flex: 1 1 50px;
+        }
+        .B1{ 
+            background-color: rgb(84, 99, 131);
+            flex: 4 1 50px;
+            
+        }
+        .C1 {
+            background-color: rgb(204, 152, 40);
+            flex: 1 2 50px;
+        }
+
+    </style>
+</head>
+<body>
+    <main id="father">
+        <div id="son" class="A1"> A </div>
+        <div id="son" class="B1"> B </div>
+        <div id="son" class="C1"> C </div>
+    </main>
+</body>
+</html>

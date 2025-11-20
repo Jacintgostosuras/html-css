@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flexbox</title>
+    <style>
+        body,html {
+            padding: 0px;
+            margin: 0px;
+        }
+
+        .container {
+            background-color: orange;
+            display: flex;
+            flex-flow: row wrap;
+            height: auto;
+            align-items: stretch;
+
+        }
+        .item {
+            background-color: aqua;
+            border: 1px solid;
+            padding: 10px;
+            text-align: center;
+            flex-basis: 200px;
+        }
+        #iA {
+            
+            
+        }
+        #iB {
+            flex-basis: auto;
+            order: 1;
+        }
+        #iC {
+            
+        }
+        #iD {
+           
+        }
+        #iE {
+            
+        }
+        #iF {
+            
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="item" id="iA">CAIXA A MAIOR</div>
+        <div class="item" id="iB"> CAIXA B MENOR </div>
+        <div class="item" id="iC"> C </div>
+        <div class="item" id="iD"> D </div>
+        <div class="item" id="iE"> E </div>
+        <div class="item" id="iF"> F </div>
+        
+    </div>
+</body>
+</html>

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flexbox</title>
+    <style>
+        body,html {
+            padding: 0px;
+            margin: 0px;
+        }
+
+        .container {
+            background-color: orange;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px;
+            display: flex;
+            flex-flow: row nowrap;
+            align-items: center;
+        }
+
+        .container2 {
+            background-color: orange;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px;
+            display: flex;
+            flex-flow: row nowrap;
+            align-items: center;
+            width: 450px;
+        }
+
+        .container3 {
+            background-color: orange;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px;
+            display: flex;
+            flex-flow: row nowrap;
+            align-items: center;
+            width: 260px;
+        }
+
+        .item {
+            border-radius: 10px;
+            background-color: aqua;
+            border: 2px solid;
+            flex-basis: 150px;
+            text-align: center;
+            
+        }
+
+        #iA {
+           flex-grow: 0;
+           flex-shrink: 1;
+        }
+        #iB {
+           flex-grow: 2;
+           flex-shrink: 0;
+        }
+        #iC {
+          flex-grow: 4;
+          flex-shrink: 2;
+           
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="item" id="iA">A</div>
+        <div class="item" id="iB"> B </div>
+        <div class="item" id="iC"> C </div>
+        
+        
+    </div>
+    <div class="container2">
+        <div class="item" id="iA">A</div>
+        <div class="item" id="iB"> B </div>
+        <div class="item" id="iC"> C </div>
+    </div>
+    <div class="container3">
+        <div class="item" id="iA">A</div>
+        <div class="item" id="iB"> B </div>
+        <div class="item" id="iC"> C </div>
+    </div>
+</body>
+</html>
