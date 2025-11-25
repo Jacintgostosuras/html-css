@@ -1,0 +1,47 @@
+@charset  "UTF-8";
+
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: 1em;
+    text-align: justify;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+header {
+    padding: 20px;
+}
+p {
+    padding-top: 20px;
+}
+main {
+    background-color: rgb(244, 246, 248);
+    padding: 20px;
+    display: flex;
+    flex-flow: row wrap;
+    box-shadow: 1px 2px 5px black;
+}
+main > h2 {
+    flex: 1 1 100vw;
+    padding-bottom: 10px;
+}
+main > p {
+    padding: 10px;
+    flex: 1 0 450px;
+}
+
+#espice {
+    flex: 1 0 450px;
+}
+
+#espice > p {
+    padding: 10px;
+}
+main > #imagem {
+   height: 300px;
+   width: 550px;
+}
+footer {
+    padding: 20px;
+}

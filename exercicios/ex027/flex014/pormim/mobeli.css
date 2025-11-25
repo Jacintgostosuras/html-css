@@ -1,0 +1,23 @@
+@charset "UTF-8";
+
+main {
+    justify-content: center;
+}
+main > h2 {
+    text-align: center;
+}
+.p1 {
+    order: 2;
+}
+#imagem {
+    order: 1;
+}
+.TIti2 {
+    order: 3;
+}
+#espice {
+    order: 5;
+}
+#video {
+    order: 4;
+}
