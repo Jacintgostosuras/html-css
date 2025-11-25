@@ -28,11 +28,11 @@ main > h2 {
 }
 main > p {
     padding: 10px;
-    flex: 1 0 450px;
+    flex: 1 0 45vw;
 }
 
 #espice {
-    flex: 1 0 450px;
+    flex: 1 0 45vw;
 }
 
 #espice > p {
