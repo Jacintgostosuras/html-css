@@ -6,6 +6,9 @@ main {
 main > h2 {
     text-align: center;
 }
+main > #imagem {
+    width: 80vw;
+}
 .p1 {
     order: 2;
 }
